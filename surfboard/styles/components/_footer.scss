@@ -1,0 +1,57 @@
+.footer__container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 93px;
+    
+    @include phones {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
+
+.contacts {
+    margin-top: rem(17px);
+    font-size: rem(21px);
+    color: #292929;
+
+}
+
+.contacts__desc {
+    @include phones {
+        font-size: rem(24px);
+        color: black;
+    }
+}
+
+
+.contacts__phone-icon--black {
+    width: rem(12.83px);
+    height: rem(13.78px);
+    margin-right: rem(6px);
+    fill: black;
+
+    @include phones {
+        margin-left: 18%;
+    }
+}
+
+.contacts__text {
+    @include phones {
+        font-size: rem(24px);
+    }
+}
+
+.socials__inner {
+    display: flex;
+    margin-top: rem(30px);
+    
+}
+
+
+.socials__link--icon {
+        width: rem(33.03px);
+        height: rem(18.36px);
+        margin-right: rem(7px);      
+}
